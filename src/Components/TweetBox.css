@@ -1,48 +1,114 @@
+
+*{
+    padding:0%;
+    margin:0%;  
+}
+
+.postContent{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tweetBox {
     border-bottom: 8px solid var(--twitter-background);
-    /* padding-right: ; */
-    margin-top: 270px;
+    
 }
 
 .tweetBox > form {
     display: flex;
     flex-direction: column;
-    position: relative;
-    bottom: 220px;
+    position: absolute;
+    top: 0;
+    right: 550px;
+    z-index: 23;
 }
 
 .tweetBox__input {
-    padding: 20px;
     display: flex;
     width: 60vw;
 }
 
-.tweetBox__input > textarea {
+.tweetBox__input > input{
     flex: 1;
     margin-left: 20px;
     font-size: 20px;
     border: solid 1px gray;
-    padding: 90px;
-    background: transparent;
-    border-radius: 20px;
-    color: white;
-}
-
-
-
-.tweetBox__imageInput {
-    border:dotted 1px gray;
     padding: 20px;
-    width: 52vw;
-    margin-left: 90px;
-    
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+   
 }
 
 .post_Button {
-   position: relative;
-   margin-left:100px ;
+   position: absolute;
+   margin-right:20px ;
+   top: 80px;
+   left: 8%;
    text-align: center;
-   align-items: start;
-    border-radius: 20px;
+    justify-content: start;
+    align-items: start;
+    border-radius: 20px;  
+}
+
+.post{  
+    color: white;
     padding: 20px;
+    margin: 20px;
+    left: 90px;
+    border:  inset 0.1px rgb(195, 193, 193);
+    padding: 20px;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+    top: 200px;
+}
+
+.postbox{
+    width: auto;
+    display:flex;
+     flex-direction:column; 
+     position:absolute;
+     top: 150px; 
+     left: 6%;
+    
+
+}
+/* .post2{
+    position: absolute;
+    color: white;
+    bottom: 400px;
+    left: 90px;
+    border:  inset 0.1px rgb(195, 193, 193);
+    padding: 20px;
+    border-radius: 10px;
+}
+.post3{
+    position: absolute;
+    color: white;
+    bottom: 400px;
+    left: 90px;
+    border:  inset 0.1px rgb(195, 193, 193);
+    padding: 20px;
+    border-radius: 10px;
+}
+.post4{
+    position: absolute;
+    color: white;
+    bottom: 400px;
+    left: 90px;
+    border:  inset 0.1px rgb(195, 193, 193);
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+.postIcon{
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+
+}
+.post p{
+    line-height: 60px;
 }

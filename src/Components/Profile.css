@@ -7,7 +7,6 @@
 .card{
     width: 100vw;
     height: 80vh;
-  
     border-radius: 0px;
 }
 .upper-container{
@@ -18,7 +17,7 @@
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin-top: 60px;   
+    margin-top: 30px;   
 }
 
 img{
@@ -27,13 +26,10 @@ img{
 
 .lower-container{
     margin-top: 60px;
-    height: 300px;
+    height: 200px;
     text-align: center;
     color: white;
     justify-content: space-around;
-    line-height: 2;
+    line-height: 1.4;
 }
 
-.btn{
-    
-}

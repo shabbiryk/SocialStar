@@ -15,7 +15,7 @@ nav{
     background: #6e2592;
     transition: 0.3s;
     color:white;
-    z-index: 5;
+    z-index: 50;
 }
 
 nav.scrolled-down {
@@ -52,8 +52,10 @@ nav img{
 }
 .links a{
     color: white;
+    display: flex;
     z-index: 555566;
-}
-.links a:hover {
-
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+        
 }

@@ -13,13 +13,15 @@ const Profile = () => {
       <div className='card'>
           <div className='upper-container'>
               <div className='image-container'>
-                <img src={imag} alt="" height="300px" width="300px"/>
+                <img src={imag} alt=""/>
               </div>
           </div>
             <div className='lower-container'>
                     <h3>{Name}</h3>
                     <h4>{job}</h4>
                     <p>{about}</p>
+                    <h3>Followers : 400</h3>
+                    <h3> Following: 300</h3>
                     <div className='btn'>
                     <button className='btn'>Follow</button>
                     </div>
