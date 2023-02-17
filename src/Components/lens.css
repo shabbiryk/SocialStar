@@ -1,0 +1,81 @@
+.farcasFeed{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+
+}
+.feeds{
+    display: block;
+    position: relative;
+    text-align: justify;
+    width: 70%;
+    padding: 20px;
+    line-height: 40px;
+    left: 8%;
+    border: double;
+    margin: 40px;
+    top: 150px;
+}
+.btn{
+    position: relative;
+    bottom: 60px;
+    left: 10%;
+}
+
+.flink{
+    text-align: justify;
+    width: 20%;
+    cursor: pointer;
+    color: white;
+}
+.flink a{
+    color: white;
+}
+.comment{
+    width: 15%;
+
+}
+
+.network{
+    text-transform: capitalize;
+}
+
+.from p{
+text-transform: capitalize;
+}
+.to{
+   text-transform: capitalize; 
+}
+
+.reply input{
+    width: 60vw;
+    display: none;
+}
+
+.engagement{
+    text-transform: capitalize;
+}
+
+.feedImg img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline;
+}
+
+#handle{
+    display: inline;
+    margin: 30px;
+    position: absolute;
+    top: 5%;
+    font-weight: bold;
+}
+
+#handle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
