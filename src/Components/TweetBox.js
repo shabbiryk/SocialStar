@@ -51,7 +51,7 @@ function TweetBox() {
 
             </div>
 
-            <div className='postbox' >
+            {/* <div className='postbox' >
                 <div className='post'>
                     <h2> This is the post data that i want to test in the front end</h2>
                         <div className="postIcon" >
@@ -85,6 +85,10 @@ function TweetBox() {
                         </div>
                 </div>
                    
+            </div> */}
+
+            <div>
+
             </div>
         </div>
     )

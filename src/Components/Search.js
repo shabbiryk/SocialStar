@@ -9,7 +9,7 @@ const Search = () => {
           name="Search"
           id="Search" placeholder='Enter the Address' />
       </div>
-      <div className='btn'>
+      <div className='btun'>
         <button type="submit"> Search</button>
       </div>
     </div>

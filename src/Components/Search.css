@@ -12,7 +12,12 @@
 .input-group{
     position: relative;
 }
-
+.btun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
 input{
     margin-bottom: 30px;
     width: 70vw;

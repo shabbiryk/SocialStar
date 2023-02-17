@@ -11,11 +11,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 56px;
+    height: 70px;
     background: #6e2592;
     transition: 0.3s;
     color:white;
     z-index: 50;
+
 }
 
 nav.scrolled-down {
@@ -58,4 +59,15 @@ nav img{
     justify-content: space-around;
     padding: 10px;
         
+}
+
+.links button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    margin-top: 7px;
 }

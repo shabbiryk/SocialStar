@@ -3,6 +3,8 @@ import "./Feed.css"
 import TweetBox from "./TweetBox"
 
 import db from "../firebase"
+import FarcasterFeed from './farcaster';
+import LensFeed from './lens';
 
 
 function Feed() {
@@ -16,8 +18,16 @@ function Feed() {
 
 
     return (
-        <div className='feed'>
-            <TweetBox />
+        <div className='home'>
+            <div className='feed'>
+                <TweetBox />
+            </div>
+            <div>
+                 <FarcasterFeed />
+            </div>
+            <div>
+                <LensFeed/>
+            </div>
         </div>
     )
 }
