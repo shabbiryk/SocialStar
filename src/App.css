@@ -1,13 +1,25 @@
-body {
-  --twitter-color: #50b7f5;
-  --twitter-background: #e6ecf0;
+/* body {
+  --twitter-color: #8c34af;
+  --twitter-background: #4c0a59;
+  margin: 0;
+  padding: 0;
 }
 
 .app {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 100vh;
-  max-width: 1300px;
+  max-width: 10wh;
   margin-left: auto;
   margin-right: auto;
   padding: 0px 10px;
+  background-color: var(--twitter-background);
+  color: white;
+} */
+.App{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
 }

@@ -1,0 +1,39 @@
+.profile{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.card{
+    width: 100vw;
+    height: 80vh;
+  
+    border-radius: 0px;
+}
+.upper-container{
+    height: 300px;
+    background:linear-gradient(to left #2d00f7,rgb(198, 66, 210));
+}
+.image-container img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;   
+}
+
+img{
+    border:solid 1px #573b8a;
+}
+
+.lower-container{
+    margin-top: 60px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    justify-content: space-around;
+    line-height: 2;
+}
+
+.btn{
+    
+}

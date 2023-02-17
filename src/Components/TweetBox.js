@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./TweetBox.css"
-import { Avatar, Button } from "@material-ui/core"
-import db from "./firebase"
+import { Avatar } from "@material-ui/core"
+import db from "../firebase"
 
 function TweetBox() {
     const [tweetMessage, setTweetMessage] = useState("")
@@ -24,23 +24,24 @@ function TweetBox() {
     }
 
     return (
-        <div className="tweetBox">
-            <form>
+        <div className='tweetBox'>
+            <form style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <div className="tweetBox__input">
-                <Avatar src="https://www.pngfind.com/pngs/m/14-141135_download-mark-zuckerberg-png-image-mark-zuckerberg-transparent.png"/>
-                    <input
-                        onChange={e=> setTweetMessage(e.target.value)}
+                    <Avatar src="https://www.pngfind.com/pngs/m/14-141135_download-mark-zuckerberg-png-image-mark-zuckerberg-transparent.png" />
+                    <textarea
+                        onChange={e => setTweetMessage(e.target.value)}
+                        className="input_post"
                         value={tweetMessage} placeholder="What's happening?" type="text" />
-                
+
                 </div>
                 <input
-                    onChange={e=> setTweetImage(e.target.value)}
+                    onChange={e => setTweetImage(e.target.value)}
                     value={tweetImage}
                     className="tweetBox__imageInput" placeholder="Optional: Enter image URL" type="text" />
-                <Button
+                <button
                     onClick={sendTweet}
                     type="submit"
-                    className="tweetBox__tweetButton">Tweet</Button>
+                    className="post_Button">Post</button>
             </form>
         </div>
     )

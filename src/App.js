@@ -1,21 +1,29 @@
 import React from 'react'
 import './App.css';
-import Sidebar from "./Sidebar"
-import Feed from "./Feed"
-import Widgets from './Widgets';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Sidebar from "./Sidebar"
+import Feed from "./Components/Feed"
+import Footer from './Components/Footer';
+import Login from './Components/Login';
+import Navbar from './Components/Navbar';
+import Search from './Components/Search';
+import Profile from './Components/Profile';
 
 function App() {
   return (
-    <div className="app">
-      
+    <div >
 
-      <Sidebar />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Feed />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
 
-      <Feed />
-
-      <Widgets/>
-      
     </div>
   );
 }

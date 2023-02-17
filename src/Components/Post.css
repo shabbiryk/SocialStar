@@ -1,12 +1,16 @@
 .post {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     border-bottom: 1px solid var(--twitter-background);
     padding-bottom: 10px;
+    width: 100wh;
 }
 
 .post__body > img {
     border-radius: 20px;
+    height: 10vh;
+    width: 10wh;
 }
 
 .post__footer {
