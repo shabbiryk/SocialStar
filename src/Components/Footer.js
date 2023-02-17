@@ -9,16 +9,16 @@ const Footer = () => {
                     <div className="footer_top">
                         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', width: '95%' }}>
                             <ul className='footer_list-item'>
-                                <a href="" className='footer_list_link'> about us </a>
+                                <a href="" className='footer_list_link'> Company </a>
                             </ul>
                             <ul className='footer_list-item'>
-                                <a href="" className='footer_list_link'> about us </a>
+                                <a href="" className='footer_list_link'> About us </a>
                             </ul>
                             <ul className='footer_list-item'>
-                                <a href="" className='footer_list_link'> about us </a>
+                                <a href="" className='footer_list_link'> Contact us </a>
                             </ul>
                             <ul className='footer_list-item'>
-                                <a href="" className='footer_list_link'> about us </a>
+                                <a href="" className='footer_list_link'> Products </a>
                             </ul>
                         </div>
 
