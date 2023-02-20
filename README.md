@@ -1,7 +1,19 @@
 
 
 
-<h3>StarSocial</h3> :  a tool that can be used in Web3 social to help users keep up with and access content from different sources 
+<h3>StarSocial</h3> :  a tool that can be used in Web3 social to help users keep up with and access content from different Web3 Socials.
+
+<h5>Tech Stack: </h5>
+RSS3: Used for fetching the content in a structured, standardized format from Lenster and Farcaster.
+
+.bit: Used for name resolver (we will be generating new ids using Starknet.id), it provide permissionless decentralized identification for individual users.
+
+Axios: used the axios.get() method to make an HTTP GET request to fetch data from an RSS3 feed. 
+Material UI: Used for Styling the web app.
+
+Starknet.id:  can be used in Starsocial as a decentralized identification solution for individual users.
+
+
 
 <h4> About </h4>
 
