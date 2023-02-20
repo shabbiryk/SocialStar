@@ -1,0 +1,41 @@
+.searched{
+    position: fixed;
+    height: 2000vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.searchInput{
+    width: 55vw;
+    position: absolute;
+    top:140px;
+    right: 250px;
+    margin-bottom: 200px;
+}
+
+
+.selectMedia{
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    height: 60px;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    background: transparent;
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.searchButton{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    top: 260px; 
+    left: 600px;
+}

@@ -33,3 +33,12 @@ img{
     line-height: 1.4;
 }
 
+.btn{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    left: 325px;
+
+}

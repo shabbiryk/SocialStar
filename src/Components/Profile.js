@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Profile.css"
-import imag from "../img/Starsocial.png"
+import imag from "../img/angel.jpg"
 import { useState } from 'react'
 
 const Profile = () => {
-  const [Name, setName] = useState("Your Name");
-  const [job, setJob] = useState("Your Job");
-  const [about, setAbout]= useState("Tell us something about yourself")
+  const [Name, setName] = useState("Shabbiryk.eth");
+  const [job, setJob] = useState("Blockchain Developer");
+  const [about, setAbout] = useState("I'm a finance nerd who wants to hold assets in a decentralized way. I mostly write about communities, DeFi, Blockchain, Tokenization and Open Source Contributions. Also a Developer Relations professional with a knack for Rust.Love sharing my ideas through writings or by taking sessions and hosting conferences!")
 
   return (
     <div className='profile'>
@@ -20,10 +20,10 @@ const Profile = () => {
                     <h3>{Name}</h3>
                     <h4>{job}</h4>
                     <p>{about}</p>
-                    <h3>Followers : 400</h3>
-                    <h3> Following: 300</h3>
+                    <h3>Followers : 487</h3>
+                    <h3> Following: 511</h3>
                     <div className='btn'>
-                    <button className='btn'>Follow</button>
+                    <button className='btn'>Edit</button>
                     </div>
             </div>
         

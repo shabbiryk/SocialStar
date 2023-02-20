@@ -8,6 +8,8 @@ import Login from './Components/Login';
 import Navbar from './Components/Navbar';
 import Search from './Components/Search';
 import Profile from './Components/Profile';
+import SearchFeat from './Components/Searched';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path="/" element={<Feed />} />
           <Route path="/search" element={<Search />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/searched" element={<SearchFeat />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
         <Footer />

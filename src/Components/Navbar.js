@@ -1,33 +1,34 @@
 import React from 'react'
+import { useState } from 'react';
 import "./Navbar.css"
 import { NavLink } from 'react-router-dom'
 // import logo from "../img/Starsocial.png"
 import HomeIcon from "@material-ui/icons/Home";
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
-// import { connect } from '@argent/get-starknet/dist';
+//import { connect } from '@argent/get-starknet/dist';
+// import {connect} from "@argent/get-starknet";
+
 
 function Navbar() {
-  
-  // async function connectWallet() {
-  //   const starknet = connect({ showList: false });
 
-  //   if (!starknet) {
-  //     throw Error("User rejected wallet selection or silent connect found nothing")
+  const [account, setAccount] = useState();
+
+
+
+  // const connectWallet = async () => {
+  //   try {
+  //     // const starknet = connect();
+  //     const starknet = await connect();
+  //     await starknet.enable({
+  //       starknetVersion: "v4",
+  //     });
+
+  //     setAccount(starknet?.account);
+  //   } catch (e) {
+  //     console.error(e);
   //   }
-
-  //   // (optional) connect the wallet
-  //   await starknet.enable();
-
-  //   if (starknet.isConnected) {
-  //     // If the extension was installed and successfully connected, you have access to a starknet.js Signer object to do all kinds of requests through the user's wallet contract.
-  //     console.log("connected");
-  //   } else {
-  //     // In case the extension wasn't successfully connected you still have access to a starknet.js Provider to read starknet states and sent anonymous transactions
-  //       console.log("not connected");
-  //   }
-
-  // }
+  // };
 
   return (
     <div>
@@ -36,12 +37,27 @@ function Navbar() {
           <h2> Socialstar ✨</h2>
           {/* <img src={logo} alt="img" /> */}
           <div className='links'>
-            <NavLink to='/'><a href=" "><HomeIcon/></a></NavLink>
-            <NavLink to='/search'><a href=" "><SearchOutlinedIcon /></a></NavLink>
+            <NavLink to='/'><a href=" "><HomeIcon /></a></NavLink>
+            <NavLink to='/searched'><a href=" "><SearchOutlinedIcon /></a></NavLink>
             {/* <NavLink to='/login'><a href=" ">Login</a></NavLink> */}
-            <NavLink to='/profile'><a href=" "><PersonOutlineOutlinedIcon/></a></NavLink>
+            <NavLink to='/profile'><a href=" "><PersonOutlineOutlinedIcon /></a></NavLink>
 
-            <button > Connect Wallet</button>
+            <button style={{textTransform:"capitalize"}}> Shabbiryk.eth</button>
+            {/* <div>
+              {!account && <button
+                className="btn"
+                hidden={account}
+                onClick={connectWallet}
+              >
+                Connect
+              </button>}
+
+              {account && (
+                <div>
+                  <p className="btn">Connected</p>
+                </div>
+              )}
+            </div> */}
 
           </div>
 
