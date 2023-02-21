@@ -6,7 +6,7 @@
 <h5>Tech Stack: </h5>
 <b> RSS3: </b> Used for fetching the content in a structured, standardized format from Lenster and Farcaster.
 
-</b>.bit: </b> Used for name resolver (we will be generating new ids using Starknet.id), it provide permissionless decentralized identification for individual users.
+<b>.bit: </b> Used for name resolver (we will be generating new ids using Starknet.id), it provide permissionless decentralized identification for individual users.
 
 <b>Axios:</b> used the axios.get() method to make an HTTP GET request to fetch data from an RSS3 feed. 
 <b>Material UI: </b> Used for Styling the web app.
