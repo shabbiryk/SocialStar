@@ -9,6 +9,7 @@
 <b>.bit: </b> Used for name resolver (we will be generating new ids using Starknet.id), it provide permissionless decentralized identification for individual users.
 
 <b>Axios:</b> used the axios.get() method to make an HTTP GET request to fetch data from an RSS3 feed. 
+
 <b>Material UI: </b> Used for Styling the web app.
 
 <b>Starknet.id:</b>used in Starsocial as a decentralized identification solution for individual users.
